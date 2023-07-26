@@ -6,7 +6,7 @@ barContainer.addEventListener("click",function(){
 });
 
 function resume(){
-  window.open("https://drive.google.com/file/d/1t3ndZLbYMF3T5ssVM3vvcRZo7p7v3vmm/view?usp=drive_link");
+  window.open("https://drive.google.com/file/d/165A77SJwrUg5XrRvThQdNjxStp3g8W3k/view?usp=sharing");
 }
 function close(){
   barContainer.classList.toggle("active");
