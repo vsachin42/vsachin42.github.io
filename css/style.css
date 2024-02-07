@@ -11,7 +11,7 @@
 
     /* HSL color mode*/
     --first-color:#b9732f;
-    --first-color-second: ;
+    --first-color-second: #0b537b;
     --first-color-alt: #b9732f;
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
@@ -410,12 +410,14 @@ img {
 
 .home_blob {
     width: 200px;
-    fill: var(--first-color);
+    fill: var(--first-color-second);
 }
+
 .home_blob-img {
     width: 175px;
     transition: 0.5s;
 }
+
 .home_blob-img:hover {
     transform-origin: 50% 50%;
     transform: scale(1.05);
