@@ -520,7 +520,7 @@
                         GitHub
                         <i class="uil uil-github-alt button_icon"></i>
                     </a>
-                    <a href="https://trade-24.vercel.app/"
+                    <a href="https://shiny-daffodil-6e406d.netlify.app/"
                         target="_blank" class="button button-flex button-small portfolio_button project-deployed-link">
                         Demo
                         <i class="uil uil-external-link-alt button_icon"></i>
@@ -603,16 +603,17 @@
             
                 GitHubCalendar(".react-activity-calendar", "vsachin42", { responsive: true });
                 </script> -->
-                <div >
-                    <div class="react-activity-calendar calendar">
-                    </div>
+                <div>
+                    <div class="react-activity-calendar calendar"></div>
                     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
                     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
-            
+                    
                     <script>
-                    GitHubCalendar(".react-activity-calendar", "vsachin42");
-                
-                    GitHubCalendar(".react-activity-calendar", "vsachin42", { responsive: true });
+                        GitHubCalendar(".react-activity-calendar", "vsachin42", {
+                            responsive: true,
+                            global_stats: true,
+                            tooltips: true
+                        });
                     </script>
         
                    
